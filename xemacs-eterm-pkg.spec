@@ -2,7 +2,7 @@ Summary:	Terminal emulation
 Summary(pl):	Terminal emulation
 Name:		xemacs-eterm-pkg
 %define 	srcname	eterm
-Version:	1.10
+Version:	1.12
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs

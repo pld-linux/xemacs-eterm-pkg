@@ -2,7 +2,7 @@ Summary:	ANSI compatible terminal emulator
 Summary(pl):	Kompatybilny a ANSI emulator terminala
 Name:		xemacs-eterm-pkg
 %define 	srcname	eterm
-Version:	1.12
+Version:	1.13
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs

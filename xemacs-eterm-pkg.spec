@@ -1,11 +1,12 @@
-Summary:	Terminal emulation
-Summary(pl):	Terminal emulation
+Summary:	ANSI compatible terminal emulator
+Summary(pl):	Kompatybilny a ANSI emulator terminala
 Name:		xemacs-eterm-pkg
 %define 	srcname	eterm
 Version:	1.12
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 URL:		http://www.xemacs.org/
@@ -16,8 +17,10 @@ Requires:	xemacs-base-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+ANSI compatible terminal emulator.
 
 %description -l pl 
+Kompatybilny a ANSI emulator terminala.
 
 %prep
 %setup -q -c
@@ -31,7 +34,7 @@ cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 gzip -9nf lisp/eterm/README.term lisp/eterm/ChangeLog 
 
 %clean
-rm -fr $RPM_BUILD_ROOT
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)

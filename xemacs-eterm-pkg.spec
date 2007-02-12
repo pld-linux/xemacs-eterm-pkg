@@ -1,5 +1,5 @@
 Summary:	ANSI compatible terminal emulator
-Summary(pl):	Kompatybilny a ANSI emulator terminala
+Summary(pl.UTF-8):   Kompatybilny a ANSI emulator terminala
 Name:		xemacs-eterm-pkg
 %define 	srcname	eterm
 Version:	1.15
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 ANSI compatible terminal emulator.
 
-%description -l pl
+%description -l pl.UTF-8
 Kompatybilny a ANSI emulator terminala.
 
 %prep
